@@ -2,11 +2,11 @@
  Clark — голосовой ассистент
 Голосовой помощник на Python: слушает микрофон, распознаёт русскую речь через Google Speech Recognition и выполняет команды — открывает сайты, запускает программы, управляет громкостью, делает скриншоты и отвечает звуками.
 
-⚙️ Требования
+Требования
 Python 3.8+
 Windows 
 
-🚀 Установка
+Установка
 
     git clone https://github.com/username/clark-assistant.git
     cd clark-assistant
@@ -15,7 +15,7 @@ Windows
 Или установите всё одной командой:
   pip install SpeechRecognition pyaudio pygame pycaw comtypes keyboard Pillow
 
-📚 Используемые библиотеки
+Используемые библиотеки
 SpeechRecognition - Распознавание речи (Google API)
 PyAudio -	Доступ к микрофону
 pygame -	Воспроизведение звуков
@@ -49,7 +49,7 @@ python main.py
 
 «я ушел» — завершить работу
 
-📝 Примечания
+Примечания
 Работает только на Windows.
 Для распознавания речи нужен интернет (Google Speech API).
 
